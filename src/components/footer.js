@@ -13,6 +13,33 @@ const StyledFooter = styled.footer`
   text-align: center;
 `;
 
+const StyledCredit = styled.div`
+  color: var(--light-slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xxs);
+  line-height: 1;
+
+  a {
+    padding: 10px;
+  }
+
+  .github-stats {
+    margin-top: 10px;
+
+    & > span {
+      display: inline-flex;
+      align-items: center;
+      margin: 0 7px;
+    }
+    svg {
+      display: inline-block;
+      margin-right: 5px;
+      width: 14px;
+      height: 14px;
+    }
+  }
+`;
+
 const StyledSocialLinks = styled.div`
   display: none;
 
@@ -54,6 +81,11 @@ const Footer = () => (
           ))}
       </ul>
     </StyledSocialLinks>
+    <StyledCredit tabindex="-1">
+      <a href="https://github.com/bchiang7/v4">
+        <div>Adopted from Brittany Chiang's Design</div>
+      </a>
+    </StyledCredit>
   </StyledFooter>
 );
 
