@@ -61,14 +61,12 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Jing Ren.</h2>;
-  const three = (
-    <h3 className="big-heading">From Automation to Innovation: Empowering the Future with Code</h3>
-  );
+  const three = <h3 className="big-heading">Innovating Excellence, Testing Tomorrow.</h3>;
   const four = (
     <>
       <p>
-        A passionate and versatile professional transitioning from a successful career as a QA
-        Engineer in Automation to pursue my dream of becoming a Developer.
+        Welcome to my corner of the web! I am a passionate Software Engineer in Test with a drive to
+        innovate and optimize testing processes.
       </p>
     </>
   );

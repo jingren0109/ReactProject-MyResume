@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'React', 'Java', 'Spring Boot', 'Selenium', 'Python'];
+  const skills = [
+    'JavaScript',
+    'React',
+    'Java',
+    'Spring Boot',
+    'Selenium',
+    'Appium',
+    'Cucumber',
+    'Python',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,9 +145,8 @@ const About = () => {
           <div>
             <p>
               Greetings! I'm Jing, a dedicated professional embarking on an exciting new chapter in
-              my career. With a solid background as a QA Engineer in automation, I have honed my
-              technical expertise and problem-solving skills. Now, I am driven by the desire to
-              explore the vast world of software development.
+              my career. With a solid background as a QA Engineer in Automation, I have honed my
+              technical expertise and problem-solving skills.
             </p>
             <p>
               During my time at <a href="https://www.tesla.com/">Tesla</a>,{' '}
@@ -151,7 +159,7 @@ const About = () => {
             </p>
             <p>
               My passion for continuous learning fuels my enthusiasm to embrace new challenges and
-              grow as a Developer.
+              constantly pushes the boundaries of what's possible.
             </p>
             <p>Here are a few technologies I’ve been working with:</p>
           </div>
