@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'E-Commerce Store'
 cover: './store.png'
 github: 'https://github.com/jingren0109/react-comfy-store'

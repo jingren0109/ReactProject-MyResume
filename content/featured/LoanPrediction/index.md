@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Build a Loan Prediction App'
 cover: './wise-prediction.png'
 github: 'https://github.com/jingren0109/project_frontend'
